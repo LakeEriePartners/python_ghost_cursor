@@ -8,11 +8,11 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 setuptools.setup(
     name="python_ghost_cursor",
-    version="0.1.1",
+    version="0.1.2",
     description="Python implementation of Xetera/ghost-cursor",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/mcolella14/python_ghost_cursor",
+    url="https://github.com/LakeEriePartners/python_ghost_cursor",
     author="mcolella14",
     author_email="mcolella14@gmail.com",
     license="MIT",

@@ -1,4 +1,4 @@
-from playwright.sync_api import Page
+from undetected_playwright.sync_api import Page
 from pathlib import Path
 
 

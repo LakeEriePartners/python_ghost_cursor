@@ -1,5 +1,5 @@
 # Python Ghost Cursor
-Python port of <a href="https://github.com/Xetera/ghost-cursor">Xetera/ghost-cursor</a>, for use with Pyppeteer and Playwright.
+Python port of <a href="https://github.com/Xetera/ghost-cursor">Xetera/ghost-cursor</a>, for use with Undetected-Playwright.
 
 > Generate realistic, human-like mouse movement data between coordinates or navigate between elements with Pyppeteer/Playwright
 like the definitely-not-robot you are.
@@ -60,7 +60,7 @@ Usage with Playwright (async):
 
 ```python
 import asyncio
-from playwright.async_api import async_playwright
+from undetected_playwright.async_api import async_playwright
 from python_ghost_cursor.playwright_async import create_cursor
 
 async def main():
@@ -80,7 +80,7 @@ asyncio.run(main())
 Usage with Playwright (sync):
 
 ```python
-from playwright.sync_api import sync_playwright
+from undetected_playwright.sync_api import sync_playwright
 from python_ghost_cursor.playwright_sync import create_cursor
 
 def main():

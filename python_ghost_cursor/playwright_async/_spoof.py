@@ -2,7 +2,7 @@ import asyncio
 import logging
 import random
 from typing import Union, Coroutine, Optional, Dict, List
-from playwright.async_api import Page, ElementHandle, CDPSession
+from undetected_playwright.async_api import Page, ElementHandle, CDPSession
 
 from python_ghost_cursor.shared._math import (
     Vector,
