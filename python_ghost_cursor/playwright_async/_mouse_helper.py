@@ -1,4 +1,4 @@
-from undetected_playwright.async_api import Page
+from patchright.async_api import Page
 from pathlib import Path
 
 

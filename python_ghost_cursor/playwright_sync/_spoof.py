@@ -3,7 +3,7 @@ import logging
 import time
 import random
 from typing import Union, Optional, Dict, List
-from undetected_playwright.sync_api import Page, ElementHandle
+from patchright.sync_api import Page, ElementHandle
 
 from python_ghost_cursor.shared._math import (
     Vector,

@@ -1,5 +1,6 @@
-from undetected_playwright.sync_api import Page
 from pathlib import Path
+
+from patchright.sync_api import Page
 
 
 def install_mouse_helper(page: Page) -> None:
