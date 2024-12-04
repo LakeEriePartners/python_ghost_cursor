@@ -60,7 +60,7 @@ Usage with Playwright (async):
 
 ```python
 import asyncio
-from undetected_playwright.async_api import async_playwright
+from patchright.async_api import async_playwright
 from python_ghost_cursor.playwright_async import create_cursor
 
 async def main():
@@ -80,7 +80,7 @@ asyncio.run(main())
 Usage with Playwright (sync):
 
 ```python
-from undetected_playwright.sync_api import sync_playwright
+from patchright.sync_api import sync_playwright
 from python_ghost_cursor.playwright_sync import create_cursor
 
 def main():
